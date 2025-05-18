@@ -1,8 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DBank Blockchain Project
+
+This is a Next.js application that provides a user interface for interacting with a "DBank" smart contract. Users can connect their Ethereum wallets, view balances, and perform deposit, withdrawal, and transfer operations.
+
+## Key Features
+
+*   **Wallet Integration**: Connect to Ethereum wallets using RainbowKit (supports MetaMask, WalletConnect, Coinbase Wallet, etc.).
+*   **Smart Contract Interaction (DBank)**:
+    *   View current balance held in the DBank smart contract.
+    *   Deposit ETH into the DBank contract.
+    *   Withdraw ETH from the DBank contract.
+    *   Transfer ETH to another address through the DBank contract.
+*   **Responsive Design**: The user interface is designed to work seamlessly across various devices (desktops, tablets, and mobile phones).
+*   **Light/Dark Mode**: Toggle between light and dark themes for optimal viewing comfort.
+*   **Modern Tech Stack**: Built with Next.js (React framework), Tailwind CSS for styling, and Ethers.js for Ethereum interactions.
+
+## Main Dependencies
+
+*   [Next.js](https://nextjs.org/): React framework for server-rendered applications.
+*   [React](https://reactjs.org/): JavaScript library for building user interfaces.
+*   [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework for rapid UI development.
+*   [Ethers.js](https://docs.ethers.io/): Library for interacting with the Ethereum blockchain and its ecosystem.
+*   [RainbowKit](https://www.rainbowkit.com/): React library for adding wallet connection to your dapp.
+*   [Wagmi](https://wagmi.sh/): React Hooks for Ethereum.
+
+For a full list of dependencies, please see the `package.json` file.
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+*   Node.js (v16.x or later recommended)
+*   npm, yarn, or pnpm (package manager)
+*   An Ethereum wallet extension in your browser (e.g., MetaMask).
+
+### Installation & Setup
+
+1.  **Clone the repository (if you haven't already):**
+    ```bash
+    git clone <https://github.com/smrafy20/DbankWD.git>
+    cd <DbankWD>
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    # yarn install
+    # or
+    # pnpm install
+    ```
+
 
 ```bash
 npm run dev
@@ -12,20 +61,12 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The page auto-updates as you edit files in the `app` directory.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
